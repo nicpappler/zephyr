@@ -18,7 +18,7 @@ The `reqmgmt` repository is Zephyr's official requirements workspace. It support
 Installation
 ************
 
-StrictDoc requires Python 3.7 or newer. To install:
+StrictDoc requires Python 3.7 or newer. To install (you might need to use pip3 instead of pip):
 
 .. code-block:: bash
 
@@ -48,7 +48,16 @@ To launch the local web interface:
 
    strictdoc server .
 
-This opens a browser-based editor for navigating and editing requirements.
+You should see something like
+
+.. code-block:: bash
+
+   Uvicorn running on http://127.0.0.1:5111 (Press CTRL+C to quit)
+
+
+Bring up your local browser and paste in the address above to access the browser-based editor 
+for navigating and editing requirements.
+
 
 Structure
 *********
